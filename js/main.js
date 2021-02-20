@@ -82,7 +82,7 @@ function tinhTienCar(km,tg){
     }else{
         var i=0;
         while(tg >= 3){
-            tg /=3;
+            tg -=3;
             i++;
         }
         tienCho = i*PHICHO;
@@ -109,7 +109,7 @@ function tinhTienSuv(km,tg){
     }else{
         var i=0;
         while(tg >= 3){
-            tg /=3;
+            tg -=3;
             i++;
         }
         tienCho = i*PHICHO;
@@ -136,7 +136,7 @@ function tinhTienBlack(km,tg){
     }else{
         var i=0;
         while(tg >= 3){
-            tg /=3;
+            tg -=3;
             i++;
         }
         tienCho = i*PHICHO;
